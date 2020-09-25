@@ -5,5 +5,7 @@ Built on Java EE Standards.
 Simplifies development and increases productivity.
 Meta-data driven framework - uses XMLs
 
+View (UI) -------------> Controller (Task Flows) -----------> Model (Bindings, Data Controls) --------------> Business Services (ADF BC)  ----> Data Services (DB)  
+
 
 
