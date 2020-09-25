@@ -17,9 +17,12 @@ You could think of like a use case. And a logical set of pages and methods that 
 Entity objects represent tables, and they're what we use to write to the database. Associations represent the foreign key connections between tables. 
 So it should be part of the entity package.
 
-View links are the association that we expose to the client side.
+The view object represent the custom view of the data necessary for the user interface. View links are the association that we expose to the client side.
 
 application module acts as our facade. It exposes only view objects and view links.
+
+We have a separate project for the model and a separate project for the view controller.
+The view controller project holds ADF Faces and ADF Controller, and this is the UI portion of the application.
 
 
 
