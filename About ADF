@@ -5,7 +5,21 @@ Built on Java EE Standards.
 Simplifies development and increases productivity.
 Meta-data driven framework - uses XMLs
 
-View (UI) -------------> Controller (Task Flows) -----------> Model (Bindings, Data Controls) --------------> Business Services (ADF BC)  ----> Data Services (DB)  
+ADF implements MVC:
+
+View (UI) -------------> Controller (Task Flows) -----------> Model (Bindings, Data Controls) --------------> Business Services (ADF BC)  ----> Data Services (DB) 
+
+Business Services do two things in a case of ADF BC -- read and write data to our data services and implement business logic. 
+
+We use task flows to represent a logical group of pages, a logical activity. 
+You could think of like a use case. And a logical set of pages and methods that we do to carry out a certain activity.
+
+Entity objects represent tables, and they're what we use to write to the database. Associations represent the foreign key connections between tables. 
+So it should be part of the entity package.
+
+View links are the association that we expose to the client side.
+
+application module acts as our facade. It exposes only view objects and view links.
 
 
 
