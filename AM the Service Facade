@@ -1,6 +1,9 @@
 
 What's a facade? It's encapsulation. You're essentially providing a simpler API that hides the complexity behind it. 
 
-So, for example, we will use our application module as a facade that will hide the complexity of the data model itself and will expose the application module and Java methods, custom Java methods, that will do things that we want to the model without exposing all the parts of the model.
+So, for example, we will use our application module as a facade that will hide the complexity of the data model itself and 
+will expose the application module and Java methods, custom Java methods, that will do things that we want to the model without exposing all the parts of the model.
+
+It hides the inner working. All that the client needs to do is interact with the Facade, and not the subsystem that it is encompassing.
 
 Our Business Services do two things in a case of ADF BC-- read and write data to our data services and implement business logic. 
