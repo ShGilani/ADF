@@ -7,7 +7,7 @@ Meta-data driven framework - uses XMLs
 
 ADF implements MVC:
 
-View (UI) -------------> Controller (Task Flows) -----------> Model (Bindings, Data Controls) --------------> Business Services (ADF BC)  ----> Data Services (DB) 
+View (ADF Faces) -------------> Controller (Task Flows) -----------> Model (Bindings, Data Controls) --------------> Business Services (ADF BC)  ----> Data Services (DB) 
 
 Business Services do two things in a case of ADF BC -- read and write data to our data services and implement business logic. 
 
